@@ -2,7 +2,6 @@ module.exports = {
   app: {
     playing: 'by Kau goncalves',
     global: true,
-    token: 'MTAzOTIwODEwMTU4MjIxNzM1Nw.GBmqxL.k1SxF6Mnn9wJ4UA6AUJEzKknPsnYPMzdOlGxV4',
     guild: '723751963489075251'
   },
 
