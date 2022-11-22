@@ -17,7 +17,7 @@ client.config = require('./config');
 
 global.player = new Player(client, client.config.opt.discordPlayer);
 
-client.on('debug', (a) => {
+/* client.on('debug', (a) => {
   if (a.startsWith(`Hit a 429`)) {
     process.kill(1)
   }
@@ -29,7 +29,7 @@ client.on("rateLimit", data => {
 
 client.on('rateLimited', () => {
   process.kill(1);
-});
+}); */
 
 require('./src/loader');
 require('./src/events');
